@@ -1,0 +1,69 @@
+Raemian test best result
+
+-Target Encoder(python vif) : LGBMRegressor: 84.04%
+
+Model Test Performance Evaluation:
+
+Model            	Test MSE		Test R²
+---------------------------------------------------------
+LinearRegression 	5255399111014087838631198720.0000		-106850408761048044666880.00%
+Lasso            	1535887.6391		68.77%
+Ridge            	1537107.6535		68.75%
+XGBRegressor     	834646.6237		83.03%
+LGBMRegressor    	784981.3041		84.04%
+
+(Early stop)
+XGBoost Test R² Score: 83.81%
+LightGBM Test R² Score: 83.85%
+
+
+-One-hot Encoder(python vif) : LightGBM(early): 84.89%
+
+Model Test Performance Evaluation:
+
+Model            	Test MSE		Test R²
+---------------------------------------------------------
+LinearRegression 	0.3020		71.15%
+Lasso            	1.0469		-0.01%
+Ridge            	0.3019		71.16%
+XGBRegressor     	0.1743		83.34%
+LGBMRegressor    	0.1600		84.72%
+
+(Early stop)
+XGBoost Test R² Score: 84.65%
+LightGBM Test R² Score: 84.89%
+
+
+-One-hot Encoder(R) : LGBMRegressor: 80.20
+
+Model Test Performance Evaluation:
+
+Model            	Test MSE		Test R²
+---------------------------------------------------------
+LinearRegression 	0.3746		65.94%
+Lasso            	1.1059		-0.57%
+Ridge            	0.3772		65.70%
+XGBRegressor     	0.2405		78.13%
+LGBMRegressor    	0.2177		80.20%
+
+(Early stop)
+XGBoost Test R² Score: 78.13%
+LightGBM Test R² Score: 80.18%
+
+-Target Encoder(R) : Xgboost(23): 85.31
+
+Model Test Performance Evaluation: XGBoost (14) R² Score: 80.10%
+
+Model            	Test MSE		Test R²
+---------------------------------------------------------
+LinearRegression 	1965858.7222		64.85%
+Lasso            	1965854.5698		64.85%
+Ridge            	1965858.6415		64.85%
+XGBRegressor     	1212855.0186		78.32%
+LGBMRegressor    	1144613.7182		79.54%
+
+(Early stop)
+XGBoost Test R² Score: 80.10%
+LightGBM Test R² Score: 79.38%
+
+
