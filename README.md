@@ -14,43 +14,23 @@
 <body>
 
 <div class="slider">
-  <img src="images/다운로드.png" style="display: block;">
-  <img src="images/다운로드(1).png">
-  <img src="images/다운로드(2).png">
-  <img src="images/다운로드(3).png">
-  <img src="images/다운로드(4).png">
-  <img src="images/다운로드(5).png">
-  <img src="images/다운로드(6).png">
-  <img src="images/다운로드(7).png">
-  <img src="images/다운로드(8).png">
-  <img src="images/다운로드(9).png">
-  <img src="images/다운로드(10).png">
-  <img src="images/다운로드(11).png">
-  <img src="images/다운로드(12).png">
-  <img src="images/다운로드(13).png">
-  <img src="images/다운로드(14).png">
-  <img src="images/다운로드(15).png">
-  <img src="images/다운로드(16).png">
-  <img src="images/다운로드(17).png">
-  <img src="images/다운로드(18).png">
+  <!-- 이미지 태그 예시, 실제 이미지 경로로 교체 필요 -->
+  <img src="https://example.com/path/to/your/image1.jpg" style="display: block;">
+  <img src="https://example.com/path/to/your/image2.jpg">
+  <img src="https://example.com/path/to/your/image3.jpg">
+  <!-- 이미지 추가 필요 -->
 </div>
 
 <script>
   let current = 0;
   const images = document.querySelectorAll('.slider img');
-
   function nextImage() {
     images[current].style.display = 'none';
     current = (current + 1) % images.length;
     images[current].style.display = 'block';
   }
-
   setInterval(nextImage, 3000); // Change image every 3 seconds
 </script>
-
-</body>
-</html>
-
 
 </body>
 </html>
