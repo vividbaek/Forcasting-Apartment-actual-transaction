@@ -4,7 +4,6 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<h1>진행한 부동산 가격 예측 프로젝트(DAT 러닝메이트팀)</h1>
 <title>Image Slider</title>
 <style>
   body { display: flex; justify-content: center; align-items: center; height: 100vh; }
@@ -48,6 +47,10 @@
 
   setInterval(nextImage, 3000); // Change image every 3 seconds
 </script>
+
+</body>
+</html>
+
 
 </body>
 </html>
