@@ -1,5 +1,7 @@
 # DAT_house_pirce
 [DAT 2기 러닝메이트 학회보고서.docx](https://github.com/vividbaek/DAT_house_pirce/files/15281702/DAT.2.docx)
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,23 +16,42 @@
 <body>
 
 <div class="slider">
-  <!-- 이미지 태그 예시, 실제 이미지 경로로 교체 필요 -->
-  <img src="https://example.com/path/to/your/image1.jpg" style="display: block;">
-  <img src="https://example.com/path/to/your/image2.jpg">
-  <img src="https://example.com/path/to/your/image3.jpg">
-  <!-- 이미지 추가 필요 -->
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png" style="display: block;">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(1).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(2).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(3).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(4).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(5).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(6).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(7).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(8).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(9).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(10).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(11).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(12).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(13).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(14).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(15).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(16).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(17).png">
+  <img src="https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(18).png">
 </div>
 
 <script>
   let current = 0;
   const images = document.querySelectorAll('.slider img');
+
   function nextImage() {
     images[current].style.display = 'none';
     current = (current + 1) % images.length;
     images[current].style.display = 'block';
   }
+
   setInterval(nextImage, 3000); // Change image every 3 seconds
 </script>
 
 </body>
 </html>
+
+
+
