@@ -1,6 +1,6 @@
-# DAT_house_pirce
-
 ## 머신러닝을 이용한 상위 5개 브랜드 아파트 실거래가 예측
+-한국외대 데이터분석 학회 DAT
+고은서 / 김대현 / 박서현 / 백형준 / 윤희진 
 
 [주제]
 ![Image Description](https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/dat.png)
