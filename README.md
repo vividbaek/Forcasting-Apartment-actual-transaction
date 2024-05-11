@@ -4,13 +4,16 @@
 고은서 / 김대현 / 박서현 / 백형준 / 윤희진 
 
 [주제]
-![Image Description](https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/dat.png)
+![Image Description](https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/ReadMe_image/주제.png)
+
+[모델]
+![Image Description](https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/ReadMe_image/모델.png)
 
 [결론]
-![Image Description](https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/결론.png)
+![Image Description](https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/ReadMe_image/결론.png)
 
 [한계점]
-![Image Description](https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/한계점.png)
+![Image Description](https://raw.githubusercontent.com/vividbaek/DAT_house_pirce/main/Code/ReadMe_image/한계점.png)
 
 [전체 보고서]
 [DAT 2기 러닝메이트 학회보고서.docx](https://github.com/vividbaek/DAT_house_pirce/files/15281702/DAT.2.docx)
